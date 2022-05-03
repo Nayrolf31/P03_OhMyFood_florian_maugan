@@ -1,0 +1,70 @@
+.loader{
+    position: fixed;
+    background: #FFFFFF;
+    height: 100vh;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.9;
+    -webkit-animation: back 1.5s linear forwards;
+    -o-animation: back 1.5s linear forwards;
+    animation: back 1.5s linear forwards;
+    animation-fill-mode: forwards;}
+
+@keyframes back {
+    0% {
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(0);
+        
+    }
+}
+
+
+.loader_animation{
+    /*création du loader*/
+    position: fixed;
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #6c5ce7;
+    border-bottom: 10px solid #e84393;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 2s linear forwards;
+    -o-animation: spin 2s linear forwards;
+    animation: spin 2s linear forwards;
+    animation-fill-mode: forwards;
+    /*#6c5ce7  #e84393*/
+
+    /*placement du loader au milieu de la page*/
+    margin: auto;
+    top: 0; left: 0; right: 0; bottom: 0;
+
+
+}
+
+/* animation loader */ 
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) scale(1.5);
+    }
+
+    100%{
+        transform: rotate(360deg) scale(0);
+        
+    }
+}
+
+@keyframes heart_grow {
+
+    16.6% {color: #4B0082;}
+    33.2% {color: #0000FF;}
+    49.8% {color: #00FF00;}
+    66.4% {color: #FFFF00;}
+    83% {color: #FF7F00;}
+    100% {color: #FF0000;}
+
+    
+}

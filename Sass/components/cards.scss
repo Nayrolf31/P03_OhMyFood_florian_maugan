@@ -1,0 +1,171 @@
+@import "../mixin.scss";
+
+.block_restaurants {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    width: 100%;
+    padding-bottom: 60px;
+    @include tablet {
+        display: flex;
+        flex-direction: row !important;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+}
+
+.block_restaurants_cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    @include tablet {
+        display: flex;
+        flex-direction: row !important;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+}
+
+.block_restaurants_cards_card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 85%;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+        height: 180px;
+    }
+}
+
+.block_restaurants {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    width: 100%;
+    padding-bottom: 60px;
+
+    .block_restaurants_cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .block_restaurants_cards_card {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        width: 85%;
+        border-radius: 20px;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+
+    /*.container_coeur {
+        text-decoration: none;
+    }*/
+
+    .block_restaurants_cards_card_new {
+        font-family: roboto;
+        color: #000;
+        display: flex;
+        font-weight: 500;
+        color: #278870;
+        background: #99e2d0;
+        position: absolute;
+        right: 10%;
+        margin-top: 20px;
+        padding: 8px;
+        border-radius: 5px;
+        height: 20px;
+        align-items: center;
+    }
+}
+
+.block_restaurants_cards_card_déscription {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+        text-decoration: none;
+        color: #000;
+        margin-bottom: 0;
+    }
+
+    p {
+        text-decoration: none;
+        color: #000;
+        margin-top: 0;
+    }
+
+    i {
+        font-size: 2em;
+        margin-right: 10px;
+    }
+}
+
+.title_name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.coeur{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+/*$breakpoint-tablet: 376px;
+
+@media screen and (min-width: $breakpoint-tablet) {
+    .block_restaurants .block_restaurants_cards {
+        display: flex;
+        flex-direction: row !important;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .block_restaurants_cards_card {
+        width: 40% !important;
+    }
+
+    .block_restaurants .block_restaurants_cards_card_new {
+        right: 30%;
+        position: absolute;
+        max-width: 1600px;
+        right: auto;
+        margin-left: 25%;
+    }
+}
+
+$breakpoint-dekstop: 998px;
+
+@media screen and (min-width: $breakpoint-dekstop) {
+    .block_fonctionnement_étape{
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+    .block_fonctionnement_étape_ligne {
+        width: 29% !important;
+    }
+}*/

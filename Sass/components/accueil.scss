@@ -1,0 +1,49 @@
+.block_fonctionnement_titre{
+    padding-left: 27px;
+}
+
+.block_restaurants_titre{
+    padding-left: 27px;
+}
+
+#block_découverte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.découverte {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background: #f6f6f6;
+
+    h1 {
+        font-family: roboto;
+        color: #000;
+        padding-top: 42px;
+        margin-top: 0;
+        text-align: center;
+        font-size: 1.8rem;
+        max-width: 99%;
+    }
+}
+
+.block_découverte_texte {
+    font-family: roboto;
+    font-weight: 100 !important;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.coeur{
+    img{
+        width: 25px;
+        height: 25px;
+        border-radius: 0;
+        margin-right: 10px;
+    }
+}

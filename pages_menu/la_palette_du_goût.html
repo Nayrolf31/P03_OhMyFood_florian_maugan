@@ -5,23 +5,22 @@
   <meta charset="utf-8">
   <script src="https://kit.fontawesome.com/706f8707f4.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
-  <link rel="stylesheet" type="text/css" href="../css/animation.css">
+  <link rel="stylesheet" type="text/css" href="../dist/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-  <title>ohmyfood</title>
+  <title>La palette du goût</title>
 </head>
 
 <body>
   <!--LOADER-->
-  <div class="loader">
-    <div class="loader_animation"></div>
-</div>
-<!--LOADER-->
+  <div class="loader_menu">
+    <div class="loader_animation_menu"></div>
+  </div>
+  <!--LOADER-->
   <!--HEADER-->
   <header class="header">
     <div class="header_arrow">
-      <a href="../index.html">
+      <a class="arrow" href="../index.html">
         <i class="fas fa-arrow-left fa-2xl"></i>
       </a>
     </div>
@@ -38,126 +37,145 @@
       <div class="menu">
         <div class="menu_header">
           <h2 class="menu_header_title">La palette du goût</h2>
-          <div class="menu_header_heart">
-            <i class="far fa-heart"></i>
+          <div class="coeur_container_menu">
+            <svg class="icon heart" xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 550 512">
+              <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+              <path
+                d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+            </svg>
           </div>
         </div>
         <div class="menu_plats"></div>
-        <h3 class="title_menu">ENTREE</h3>
-        <a class="assiettes" href="#">
-            <div class="assiette_case">
-              <div class="assiette_titre">
-                <p>Fricassée d'escargot</p>
-              </div>
-              <div class="assiette_description">
-                <p>Au piment d'Espelette</p>
-                <div class="assiette_prix">25€</div>
-              </div>
-            </div>
-          </a>
 
-        <a class="assiettes" href="#">
-            <div class="assiette_case">
-              <div class="assiette_titre">
-                <p>Foie gras de canard mi-cuit</p>
+        <div id="block_menu">
+          <div class="menu_block">
+            <h3 class="title_menu">ENTRÉE</h3>
+            <a class="assiettes anim1" href="#">
+              <div class="assiette_case">
+                <h4 class="description_titre">Fricassée d'escargot</h4>
+                <div class="block_description">
+                  <p class="détail_description">Au piment d'Espelette</p>
+                  <div class="assiette_prix">25€</div>
+                </div>
               </div>
-              <div class="assiette_description">
-                <p>Et ses copeaux de truffe noire</p>
-                <div class="assiette_prix">35€</div>
+              <div class="check">
+                <i class="fas fa-check-circle fa-2x check_icon"></i>
               </div>
-            </div>
-          </a>
+            </a>
 
-        <a class="assiettes" href="#">
-            <div class="assiette_case">
-              <div class="assiette_titre">
-                <p>Oeuf au plat</p>
+            <a class="assiettes anim2" href="#">
+              <div class="assiette_case">
+                <h4 class="description_titre">Foie gras de canard mi-cuit</h4>
+                <div class="block_description">
+                  <p class="détail_description">Et ses copeaux de truffe noire</p>
+                  <div class="assiette_prix">35€</div>
+                </div>
               </div>
-              <div class="assiette_description">
-                <p>Assaisoné à la truffe sur lit de caviar</p>
-                <div class="assiette_prix">20€</div>
+              <div class="check">
+                <i class="fas fa-check-circle fa-2x check_icon"></i>
               </div>
-            </div>
-          </a>
+            </a>
 
+            <a class="assiettes anim3" href="#">
+              <div class="assiette_case">
+                <h4 class="description_titre">Oeuf au plat</h4>
+                <div class="block_description">
+                  <p class="détail_description">Assaisoné à la truffe sur lit de caviar</p>
+                  <div class="assiette_prix">20€</div>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fas fa-check-circle fa-2x check_icon"></i>
+              </div>
+            </a>
+          </div>
 
-        <h3 class="title_menu">PLATS</h3>
+          <div class="menu_block">
+            <h3 class="title_menu">PLATS</h3>
 
-        <a class="assiettes" href="#">
-            <div class="assiette_case">
-              <div class="assiette_titre">
-                <p>Filet de boeuf aux herbes</p>
+            <a class="assiettes anim4" href="#">
+              <div class="assiette_case">
+                <h4 class="description_titre">Filet de boeuf aux herbes</h4>
+                <div class="block_description">
+                  <p class="détail_description">Accompagné de sa ribambelle de légumes</p>
+                  <div class="assiette_prix">40€</div>
+                </div>
               </div>
-              <div class="assiette_description">
-                <p>Accompagné de sa ribambelle de légumes</p>
-                <div class="assiette_prix">40€</div>
+              <div class="check">
+                <i class="fas fa-check-circle fa-2x check_icon"></i>
               </div>
-            </div>
-          </a>
+            </a>
 
-        <a class="assiettes" href="#">
-            <div class="assiette_case">
-              <div class="assiette_titre">
-                <p>Parmentier de queue de boeuf</p>
+            <a class="assiettes anim5" href="#">
+              <div class="assiette_case">
+                <h4 class="description_titre">Parmentier de queue de boeuf</h4>
+                <div class="block_description">
+                  <p class="détail_description">À la truffe noire sur sa purée de panais</p>
+                  <div class="assiette_prix">35€</div>
+                </div>
               </div>
-              <div class="assiette_description">
-                <p>À la truffe noire sur sa purée de panais</p>
-                <div class="assiette_prix">35€</div>
+              <div class="check">
+                <i class="fas fa-check-circle fa-2x check_icon"></i>
               </div>
-            </div>
-          </a>
+            </a>
 
-        <a class="assiettes" href="#">
-            <div class="assiette_case">
-              <div class="assiette_titre">
-                <p>Filet de turbot</p>
+            <a class="assiettes anim6" href="#">
+              <div class="assiette_case">
+                <h4 class="description_titre">Filet de turbot</h4>
+                <div class="block_description">
+                  <p class="détail_description">Aux agrumes</p>
+                  <div class="assiette_prix">44€</div>
+                </div>
               </div>
-              <div class="assiette_description">
-                <p>Aux agrumes</p>
-                <div class="assiette_prix">44€</div>
+              <div class="check">
+                <i class="fas fa-check-circle fa-2x check_icon"></i>
               </div>
-            </div>
-        </a>
+            </a>
+          </div>
 
+          <div class="menu_block">
+            <h3 class="title_menu">DESSERTS</h3>
 
+            <a class="assiettes anim7" href="#">
+              <div class="assiette_case">
+                <h4 class="description_titre">Paris-Brest</h4>
+                <div class="block_description">
+                  <p class="détail_description">Revisité</p>
+                  <div class="assiette_prix">18€</div>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fas fa-check-circle fa-2x check_icon"></i>
+              </div>
+            </a>
 
-        <h3 class="title_menu">DESSERTS</h3>
+            <a class="assiettes anim8" href="#">
+              <div class="assiette_case">
+                <h4 class="description_titre">Macaron au chocolat d'exception</h4>
+                <div class="block_description">
+                  <p class="détail_description">Et glace à la vanille de Madagascar</p>
+                  <div class="assiette_prix">22€</div>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fas fa-check-circle fa-2x check_icon"></i>
+              </div>
+            </a>
 
-        <a class="assiettes" href="#">
-            <div class="assiette_case">
-              <div class="assiette_titre">
-                <p>Paris-Brest</p>
+            <a class="assiettes anim9" href="#">
+              <div class="assiette_case">
+                <h4 class="description_titre">Mousse au chocolat</h4>
+                <div class="block_description">
+                  <p class="détail_description">Au piment d'espelette et à la truffe noire</p>
+                  <div class="assiette_prix">23€</div>
+                </div>
               </div>
-              <div class="assiette_description">
-                <p>Revisité</p>
-                <div class="assiette_prix">18€</div>
+              <div class="check">
+                <i class="fas fa-check-circle fa-2x check_icon"></i>
               </div>
-            </div>
-        </a>
-
-        <a class="assiettes" href="#">
-            <div class="assiette_case">
-              <div class="assiette_titre">
-                <p>Macaron au chocolat d'exception</p>
-              </div>
-              <div class="assiette_description">
-                <p>Et glace à la vanille de Madagascar</p>
-                <div class="assiette_prix">22€</div>
-              </div>
-            </div>
-          </a>
-
-      <a class="assiettes" href="#">
-            <div class="assiette_case">
-              <div class="assiette_titre">
-                <p>Mousse au chocolat</p>
-              </div>
-              <div class="assiette_description">
-                <p>Au piment d'espelette et à la truffe noire</p>
-                <div class="assiette_prix">23€</div>
-              </div>
-            </div>
-      </a>
+            </a>
+          </div>
+        </div>
 
         <div class="menu_button">
           <p class="button">Commander</p>
@@ -182,7 +200,7 @@
         <p>Devenir partenaire</p>
       </div>
       <div class="block_footer_lien">Mentions légales</div>
-      <div class="block_footer_lien">Contact</div>
+      <a class="block_footer_lien" href="mailto:ohmyfood@gmail.com">Contact</a>
     </div>
   </footer>
 

@@ -1,3 +1,5 @@
+@import "../mixin.scss";
+
 footer {
     background-color: #353535;
     color: white;
@@ -15,6 +17,13 @@ footer i {
     font-size: 18px;
     font-family: 'Shrikhand';
     margin-left: 20px;
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: 2.5rem;
+
+    }
 }
 
 .block_footer_lien {
@@ -34,7 +43,7 @@ footer i {
     }
 }
 
-.footer_menu{
+.footer_menu {
     font-size: 40px;
     background-color: #353535;
     color: white;
@@ -43,13 +52,35 @@ footer i {
     padding: 20px 0 60px 0px;
 }
 
-.logo_footer_menu{
+.logo_footer_menu {
     color: white;
     font-size: 42px;
     font-family: 'Shrikhand';
     margin-left: 40px;
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: 2.5rem;
+
+    }
 }
 
-.block_footer_menu{
+.block_footer_menu {
     padding-left: 30px;
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 1.1rem;
+    }
+}
+
+.block_footer {
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 1.1rem;
+    }
 }

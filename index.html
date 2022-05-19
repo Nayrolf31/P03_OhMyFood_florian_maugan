@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/animation.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/706f8707f4.js" crossorigin="anonymous"></script>
@@ -16,11 +15,11 @@
 
 <body>
 
-        <!--LOADER-->
-        <div class="loader">
-            <div class="loader_animation"></div>
-        </div>
-        <!--LOADER-->
+    <!--LOADER-->
+    <div class="loader">
+        <div class="loader_animation"></div>
+    </div>
+    <!--LOADER-->
     <!--HEADER-->
     <header class="header">
         <div class="logo_header">
@@ -37,11 +36,11 @@
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
                 <div class="location_city">
-                    <input class="research" type="search" id="research" placeholder="Paris, Belleville" >
+                    <input class="research" type="search" id="research" placeholder="Paris, Belleville">
                 </div>
             </div>
         </form>
-        
+
         <section id="block_découverte">
 
             <div class="découverte">
@@ -101,18 +100,15 @@
                         <img class="images_restaurant" src="images/restaurants/La_palette_du_goût.jpg"
                             alt="La palette du goût">
                         <div class="block_restaurants_cards_card_déscription">
-                        <div class="title_name">
-                            <h3 class="black">La palette du goût</h3>
-                            <p class="black">Ménilmontant</p>
-                        </div>
-                        <a class="container_coeur" href="#">
-                            <div class="coeur">
-                                <i class="far fa-heart"></i>
+                            <div class="title_name">
+                                <h3 class="black">La palette du goût</h3>
+                                <p class="black">Ménilmontant</p>
                             </div>
-                            <div class="coeur_anim">
-                                <i class="fas fa-heart fa-2xs"></i>
+                            <div class="coeur_container">
+                                <svg class="icon heart" xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 550 512">
+                                    <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                    <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>
                             </div>
-                        </a>
                         </div>
                     </a>
                 </div>
@@ -127,12 +123,14 @@
                                 alt="La palette du goût">
                         </div>
                         <div class="block_restaurants_cards_card_déscription">
-                        <div class="title_name">
-                            <h3 class="black">La note enchantée</h3>
-                            <p class="black">Charonne</p>
-                        </div>
-                            <div class="coeur">
-                                <i class="far fa-heart"></i>
+                            <div class="title_name">
+                                <h3 class="black">La note enchantée</h3>
+                                <p class="black">Charonne</p>
+                            </div>
+                            <div class="coeur_container">
+                                <svg class="icon heart" xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 550 512">
+                                    <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                    <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>
                             </div>
                         </div>
                     </a>
@@ -141,41 +139,39 @@
                 <div class="block_restaurants_cards_card">
                     <a class="card" href="pages_menu/à_la_française.html">
                         <div class="block_restaurants_cards_card_image"></div>
-                        <div class="block_restaurants_cards_card_new">
-                            <p>Nouveau</p>
-                        </div>
                         <img class="images_restaurant" src="images/restaurants/A_la_français.jpg"
                             alt="La palette du goût">
                         <div class="block_restaurants_cards_card_déscription">
-                        <div class="title_name">
-                            <h3 class="black">A la française</h3>
-                            <p class="black">Cité Rouge</p>
-                        </div>
-                            <div class="coeur">
-                                <i class="far fa-heart"></i>
+                            <div class="title_name">
+                                <h3 class="black">A la française</h3>
+                                <p class="black">Cité Rouge</p>
+                            </div>
+                            <div class="coeur_container">
+                                <svg class="icon heart" xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 550 512">
+                                    <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                    <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>
                             </div>
                         </div>
                     </a>
                 </div>
 
                 <div class="block_restaurants_cards_card">
-                    <a class="card" href="pages_menu/la_délice_des_sens.html">
+                    <a class="card" href="pages_menu/le_délice_des_sens.html">
                         <div class="block_restaurants_cards_card_image"></div>
-                        <div class="block_restaurants_cards_card_new">
-                            <p>Nouveau</p>
-                        </div>
                         <img class="images_restaurant" src="images/restaurants/Le_délice_des_sens.jpg"
                             alt="La palette du goût">
                         <div class="block_restaurants_cards_card_déscription">
-                        <div class="title_name">
-                            <h3 class="black">Le délice des sens</h3>
-                            <p class="black">Folie-Méricourt</p>
-                        </div>
-                            <div class="coeur">
-                                <i class="far fa-heart"></i>
+                            <div class="title_name">
+                                <h3 class="black">Le délice des sens</h3>
+                                <p class="black">Folie-Méricourt</p>
+                            </div>
+                            <div class="coeur_container">
+                                <svg class="icon heart" xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 550 512">
+                                    <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                    <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>
                             </div>
                         </div>
-                        
+
                     </a>
                 </div>
             </div>
@@ -204,7 +200,7 @@
                 <p>Devenir partenaire</p>
             </div>
             <div class="block_footer_lien">Mentions légales</div>
-            <div class="block_footer_lien">Contact</div>
+            <a class="block_footer_lien" href="mailto:ohmyfood@gmail.com">Contact</a>
         </div>
 
     </footer>

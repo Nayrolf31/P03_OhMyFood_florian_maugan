@@ -1,0 +1,32 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.logo_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 1px 0px 8px 0px #bdbdbd;
+          box-shadow: 1px 0px 8px 0px #bdbdbd;
+}
+
+.logo_header img {
+  width: 165px;
+  margin: 22px 0 12px 0;
+}
+
+.menu_header_title {
+  font-family: 'Shrikhand';
+}
+/*# sourceMappingURL=header.css.map */

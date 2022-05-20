@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,KAAK,EAAE,IAAI;CACd;;AAED,AAAA,YAAY,CAAC;EACT,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,uBAAuB;CAMtC;;AAVD,AAMI,YANQ,CAMR,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,aAAa;CACxB;;AAGL,AAAA,kBAAkB,CAAA;EACd,WAAW,EAAE,WAAW;CAC3B",
+    "sources": [
+        "../../Sass/layout/header.scss"
+    ],
+    "names": [],
+    "file": "header.css"
+}

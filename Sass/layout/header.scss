@@ -16,6 +16,24 @@
     }
 }
 
+.menu_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
 .menu_header_title{
     font-family: 'Shrikhand';
+    font-size: 3.9rem;
+    color: #000;
+    margin-left: 45px;
+    padding-top: 52px;
+    margin-top: 0;
+    margin-bottom: 33px;
+}
+
+.menu_header_heart {
+    font-size: 60px;
+    margin-left: 60px;
 }

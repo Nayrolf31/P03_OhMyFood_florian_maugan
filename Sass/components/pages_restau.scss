@@ -1,5 +1,6 @@
 @import "../mixin.scss";
 
+
 .image_entête {
     position: relative;
     width: 100%;
@@ -60,21 +61,22 @@
     margin: auto;
 }
 
-.menu_header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.menu_header_title {
-    font-size: 4.7rem;
-    margin-left: 45px;
-}
+/*#block_menu {
+    @include dekstop {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}*/
 
-.menu_header_heart {
-    font-size: 60px;
-    margin-left: 60px;
-}
+/*.menu_block {
+    @include dekstop {
+        width: 33%;
+    }
+}*/
 
 .title_menu {
     margin-left: 45px;
@@ -82,6 +84,12 @@
     font-weight: 100;
     border-bottom: solid 5px #99E2D0;
     width: 115px;
+    @include tablet {
+        display: flex;
+        justify-content: center ;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
 }
 
 .assiettes {
@@ -100,7 +108,9 @@
     overflow: hidden;
     justify-content: space-between;
     align-items: center;
-
+    @include dekstop {
+        height: 130px ;
+    }
     p {
         margin: 5px 0 10px 20px;
     }
@@ -150,11 +160,14 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 7px;
-    margin-right: 65px;
+    margin-right: 195px;
+    @include dekstop {
+        font-size: 1.9rem ;
+    }
 }
 
 .block_description{
@@ -172,15 +185,25 @@
     margin-bottom: 13px;
     font-size: 2.3rem;
     margin-right: 10px;
+    @include dekstop {
+        font-size: 1.7rem ;
+    }
 }
+
+}
+
+.détail_description{
+    @include dekstop {
+        font-size: 1.8rem ;
+    }
 }
 
 .assiette_prix{
     font-family: roboto;
     color: #000;
     font-weight: 900;
-    margin-right: 20px;
-    margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 80px;
 
 }
 
@@ -231,7 +254,7 @@ h4{
 .check {
     display: flex;
     transform: translateX(105%);
-    width: 250px;
+    width: 200px;
     margin-left: -250px;
     justify-content: center;
     align-items: center;
@@ -243,38 +266,3 @@ h4{
         color: white;
     }
 }
-
-
-/*$breakpoint(
-    tablet: 376px;
-    dekstop: 998px;
-    )
-
-@media screen and (min-width: $breakpoint, tablet) {
-    
-    #block_menu {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-between;
-        font-size: 1.1rem;
-    }
-
-    .menu {
-        margin: auto;
-    }
-
-    .menu_block {
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-    }
-}
-
-    .title_menu{
-        display: flex;
-        justify-content: center !important;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}*/

@@ -102,6 +102,10 @@
         border-radius: 5px;
         height: 20px;
         align-items: center;
+        @include dekstop {
+            margin-left: 35%;
+            right: auto;
+        }
     }
 }
 

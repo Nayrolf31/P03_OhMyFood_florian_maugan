@@ -88,34 +88,39 @@
   margin: auto;
 }
 
-.menu_header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.menu_header_title {
-  font-size: 4.7rem;
-  margin-left: 45px;
-}
-
-.menu_header_heart {
-  font-size: 60px;
-  margin-left: 60px;
-}
-
+/*#block_menu {
+    @include dekstop {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}*/
+/*.menu_block {
+    @include dekstop {
+        width: 33%;
+    }
+}*/
 .title_menu {
   margin-left: 45px;
   font-size: 45px;
   font-weight: 100;
   border-bottom: solid 5px #99E2D0;
   width: 115px;
+}
+
+@media screen and (min-width: 998px) {
+  .title_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .assiettes {
@@ -143,6 +148,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (min-width: 1270px) {
+  .assiettes {
+    height: 130px;
+  }
 }
 
 .assiettes p {
@@ -210,11 +221,17 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin-left: 10px;
   margin-top: 15px;
   margin-bottom: 7px;
-  margin-right: 65px;
+  margin-right: 195px;
+}
+
+@media screen and (min-width: 1270px) {
+  .description_titre {
+    font-size: 1.9rem;
+  }
 }
 
 .block_description {
@@ -243,12 +260,24 @@
   margin-right: 10px;
 }
 
+@media screen and (min-width: 1270px) {
+  .block_description p {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .détail_description {
+    font-size: 1.8rem;
+  }
+}
+
 .assiette_prix {
   font-family: roboto;
   color: #000;
   font-weight: 900;
-  margin-right: 20px;
-  margin-left: 50px;
+  margin-right: 50px;
+  margin-left: 80px;
 }
 
 /*TEST
@@ -311,7 +340,7 @@ h4{
   display: flex;
   -webkit-transform: translateX(105%);
           transform: translateX(105%);
-  width: 250px;
+  width: 200px;
   margin-left: -250px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -328,38 +357,4 @@ h4{
 .check i {
   color: white;
 }
-
-/*$breakpoint(
-    tablet: 376px;
-    dekstop: 998px;
-    )
-
-@media screen and (min-width: $breakpoint, tablet) {
-    
-    #block_menu {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-between;
-        font-size: 1.1rem;
-    }
-
-    .menu {
-        margin: auto;
-    }
-
-    .menu_block {
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-    }
-}
-
-    .title_menu{
-        display: flex;
-        justify-content: center !important;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}*/
 /*# sourceMappingURL=pages_restau.css.map */

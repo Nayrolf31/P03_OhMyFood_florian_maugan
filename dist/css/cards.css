@@ -166,6 +166,13 @@
           align-items: center;
 }
 
+@media screen and (min-width: 1270px) {
+  .block_restaurants .block_restaurants_cards_card_new {
+    margin-left: 35%;
+    right: auto;
+  }
+}
+
 .block_restaurants_cards_card_déscription {
   display: -webkit-box;
   display: -ms-flexbox;

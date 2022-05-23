@@ -70,88 +70,6 @@
     }
 }
 
-/*@keyframes heart_grow {
-
-    16.6% {color: #4B0082;}
-    33.2% {color: #0000FF;}
-    49.8% {color: #00FF00;}
-    66.4% {color: #FFFF00;}
-    83% {color: #FF7F00;}
-    100% {color: #FF0000;}
-
-    
-}
-
-.coeur{
-    text-decoration: none;
-}
-
-.coeur_anim{
-    display: none;
-}
-
-@keyframes heart_grow {
-
-    16.6% {color: #4B0082;}
-    33.2% {color: #0000FF;}
-    49.8% {color: #00FF00;}
-    66.4% {color: #FFFF00;}
-    83% {color: #FF7F00;}
-    100% {color: #FF0000;}
-
-}*/
-
-/*.coeur{
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    i{
-        position: relative;
-    }
-}*/
-
-/*.assiettes {
-    
-        animation: progress 2s;
-        -moz-animation: progress 2s; 
-        -webkit-animation: progress 2s; 
-        -o-animation: progress 2s; 
-    }
-    @keyframes progress {
-        from {
-            opacity:0;
-        }
-        to {
-            opacity:1;
-        }
-    }
-    @-moz-keyframes progress { 
-        from {
-            opacity:0;
-        }
-        to {
-            opacity:1;
-        }
-    }
-    @-webkit-keyframes progress { 
-        from {
-            opacity:0;
-        }
-        to {
-            opacity:1;
-        }
-    }
-    @-o-keyframes progress { 
-        from {
-            opacity:0;
-        }
-        to {
-            opacity: 1;
-        }
-    }*/
-
 .coeur_contour {
     position: absolute;
     text-decoration: none;
@@ -162,7 +80,7 @@
     position: absolute;
     text-decoration: none;
     cursor: pointer;
-    transform: scale(0,0);
+    transform: scale(0, 0);
 }
 
 .coeur {
@@ -197,96 +115,91 @@
     }
 }
 
-.coeur_container_menu{
+.coeur_container_menu {
     margin-right: 80px;
     position: relative;
     width: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-        svg{
-            width: 100%;
-            height: 100%;
-        }
-        .icon path{
+
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .icon path {
         fill: transparent;
         stroke-width: 30;
         stroke: #000;
     }
-    .icon.heart path{
+
+    .icon.heart path {
         stroke-dasharray: 1540;
         stroke-dashoffset: 0;
     }
-    .icon.heart:hover path{
+
+    .icon.heart:hover path {
         animation: animation-heart 2s linear forwards;
 
     }
-    .icon.heart:active path{
+
+    .icon.heart:active path {
         transform: scale(0.9);
     }
 }
-.coeur_container{
+
+.coeur_container {
     margin-right: 20px;
     position: relative;
     width: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    .icon path{
+
+    .icon path {
         fill: transparent;
         stroke-width: 40;
         stroke: #000;
     }
-    .icon.heart path{
+
+    .icon.heart path {
         stroke-dasharray: 1540;
         stroke-dashoffset: 0;
     }
-    .icon.heart:hover path{
+
+    .icon.heart:hover path {
         animation: animation-heart 2s linear forwards;
 
     }
 }
 
 @keyframes animation-heart {
-    0%{
+    0% {
         stroke-dashoffset: 0;
-        fill:$color_primaire;
+        fill: $color_primaire;
         fill-opacity: 0%;
     }
 
-    40%{
+    40% {
         stroke-dashoffset: 1540;
         fill: $color_secondaire ;
         fill-opacity: 25%;
     }
 
-    80%{
+    80% {
         stroke-dashoffset: 3080;
         fill: $color_primaire ;
         fill-opacity: 75%;
     }
-    100%{
+
+    100% {
         stroke-dashoffset: 0;
         fill: $color_secondaire;
         fill-opacity: 100%;
         stroke: $color_secondaire;
     }
 }
-
-
-
-/* @keyframes heart-grow {
-    0% {
-        transform: scale(0.0);
-        color: linear-gradient(120deg, #FF79DA, #9356DC);
-    }
-
-    100% {
-        transform: scale(1.1);
-        color: linear-gradient(120deg, #FF79DA, #9356DC);
-    }
-}*/
-
 
 @for $i from 1 through 10 {
     .anim#{$i} {

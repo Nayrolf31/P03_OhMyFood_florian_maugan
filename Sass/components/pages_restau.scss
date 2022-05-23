@@ -7,6 +7,7 @@
     height: 65vw;
     overflow: hidden;
     object-fit: cover;
+
     @include tablet {
         height: 45vw;
     }
@@ -23,7 +24,8 @@
     margin-right: 90px;
     margin-left: 60px;
     font-size: 50px;
-    a{
+
+    a {
         text-decoration: none;
         color: #000;
     }
@@ -37,6 +39,7 @@
     justify-content: center;
     align-items: center;
     margin: 30px 0 30px 60px;
+
     @include tablet {
         display: flex;
         justify-content: center;
@@ -61,34 +64,18 @@
     margin: auto;
 }
 
-
-/*#block_menu {
-    @include dekstop {
-        display: flex;
-        flex-direction: row;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-}*/
-
-/*.menu_block {
-    @include dekstop {
-        width: 33%;
-    }
-}*/
-
 .title_menu {
     margin-left: 45px;
     font-size: 45px;
     font-weight: 100;
     border-bottom: solid 5px #99E2D0;
     width: 115px;
+
     @include tablet {
         display: flex;
-        justify-content: center ;
-        margin-left: auto ;
-        margin-right: auto ;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -108,9 +95,11 @@
     overflow: hidden;
     justify-content: space-between;
     align-items: center;
+
     @include dekstop {
-        height: 130px ;
+        height: 130px;
     }
+
     p {
         margin: 5px 0 10px 20px;
     }
@@ -147,14 +136,14 @@
 }
 
 .assiette_case {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: 15px;
-        @include txt_overflow;
-    }
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 15px;
+    @include txt_overflow;
+}
 
-.description_titre{
+.description_titre {
     font-family: roboto;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -165,40 +154,43 @@
     margin-top: 15px;
     margin-bottom: 7px;
     margin-right: 195px;
+
     @include dekstop {
-        font-size: 1.9rem ;
+        font-size: 1.9rem;
     }
 }
 
-.block_description{
+.block_description {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    p{
+
+    p {
         font-family: roboto;
-    color: #000;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-weight: 300;
-    margin-left: 10px;
-    margin-bottom: 13px;
-    font-size: 2.3rem;
-    margin-right: 10px;
+        color: #000;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: 300;
+        margin-left: 10px;
+        margin-bottom: 13px;
+        font-size: 2.3rem;
+        margin-right: 10px;
+
+        @include dekstop {
+            font-size: 1.7rem;
+        }
+    }
+
+}
+
+.détail_description {
     @include dekstop {
-        font-size: 1.7rem ;
+        font-size: 1.8rem;
     }
 }
 
-}
-
-.détail_description{
-    @include dekstop {
-        font-size: 1.8rem ;
-    }
-}
-
-.assiette_prix{
+.assiette_prix {
     font-family: roboto;
     color: #000;
     font-weight: 900;

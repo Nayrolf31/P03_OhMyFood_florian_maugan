@@ -6,6 +6,7 @@
     background-color: #f6f6f6;
     width: 100%;
     padding-bottom: 60px;
+
     @include tablet {
         display: flex;
         flex-direction: row !important;
@@ -14,6 +15,7 @@
         justify-content: space-around;
         margin: auto;
     }
+
     @include dekstop {
         display: flex;
         flex-direction: row !important;
@@ -64,13 +66,6 @@
     width: 100%;
     padding-bottom: 60px;
 
-    /*.block_restaurants_cards {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }*/
-
     .block_restaurants_cards_card {
         display: flex;
         flex-direction: column;
@@ -79,14 +74,11 @@
         border-radius: 20px;
         text-decoration: none;
         margin-bottom: 20px;
+
         @include tablet {
             width: 45%;
         }
     }
-
-    /*.container_coeur {
-        text-decoration: none;
-    }*/
 
     .block_restaurants_cards_card_new {
         font-family: roboto;
@@ -102,10 +94,12 @@
         border-radius: 5px;
         height: 20px;
         align-items: center;
-        @include tablet{
+
+        @include tablet {
             margin-left: 35%;
             right: auto;
         }
+
         @include dekstop {
             margin-left: 35%;
             right: auto;
@@ -144,9 +138,8 @@
     margin-left: 15px;
 }
 
-.coeur{
+.coeur {
     display: flex;
     align-items: center;
     margin-right: 30px;
 }
-

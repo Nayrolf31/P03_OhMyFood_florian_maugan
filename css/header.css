@@ -1,0 +1,56 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.logo_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 1px 0px 8px 0px #bdbdbd;
+          box-shadow: 1px 0px 8px 0px #bdbdbd;
+}
+
+.logo_header img {
+  width: 165px;
+  margin: 22px 0 12px 0;
+}
+
+.menu_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.menu_header_title {
+  font-family: 'Shrikhand';
+  font-size: 3.9rem;
+  color: #000;
+  margin-left: 45px;
+  padding-top: 52px;
+  margin-top: 0;
+  margin-bottom: 33px;
+}
+
+.menu_header_heart {
+  font-size: 60px;
+  margin-left: 60px;
+}
+/*# sourceMappingURL=header.css.map */

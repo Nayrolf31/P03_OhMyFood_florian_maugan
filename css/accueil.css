@@ -1,0 +1,234 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+  margin: 0;
+  font-family: roboto;
+}
+
+.block_fonctionnement_titre {
+  padding-left: 27px;
+}
+
+@media screen and (min-width: 998px) {
+  .block_fonctionnement_titre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    height: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: auto;
+    padding: 30px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .block_fonctionnement_titre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    height: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: auto;
+  }
+}
+
+#search_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #eaeaea;
+}
+
+.location_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+}
+
+#research {
+  border: none;
+  text-decoration: none;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 137px;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.block_restaurants_titre {
+  padding-left: 27px;
+}
+
+#block_découverte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.découverte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 100%;
+  background: #f6f6f6;
+}
+
+.découverte h1 {
+  font-family: roboto;
+  color: #000;
+  padding-top: 42px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.8rem;
+  max-width: 99%;
+}
+
+.block_découverte_texte {
+  font-family: roboto;
+  font-weight: 100 !important;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+.block_fonctionnement_étape {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-bottom: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 998px) {
+  .block_fonctionnement_étape {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.block_fonctionnement_étape_ligne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f6f6f6;
+  border-radius: 25px;
+  margin-bottom: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-box-shadow: 0px 6px 9px -1px #dddddd;
+          box-shadow: 0px 6px 9px -1px #dddddd;
+}
+
+@media screen and (min-width: 998px) {
+  .block_fonctionnement_étape_ligne {
+    margin-top: 20px;
+    width: 28%;
+  }
+}
+
+.block_fonctionnement_étape_ligne:hover {
+  background: #f2eafb;
+}
+
+.block_fonctionnement_étape_ligne:hover i {
+  color: #9356DC;
+}
+
+.étape_number {
+  color: #fff;
+  background: #9356DC;
+  border-radius: 50px;
+  padding: 5px 10px 5px 10px;
+  margin-right: 20px;
+  margin-left: -12px;
+}
+
+.étape_icon {
+  color: #6b6b6b;
+  margin-right: 20px;
+}
+
+.card {
+  text-decoration: none;
+}
+
+.black {
+  color: #000;
+}
+
+.coeur img {
+  width: 25px;
+  height: 25px;
+  border-radius: 0;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=accueil.css.map */

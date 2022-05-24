@@ -1,3 +1,5 @@
+@import "../mixin.scss";
+
 .header {
     display: flex;
     flex-direction: row;
@@ -13,6 +15,9 @@
     img {
         width: 165px;
         margin: 22px 0 12px 0;
+        @include tablet {
+            width: 300px;
+        }
     }
 }
 
@@ -31,6 +36,14 @@
     padding-top: 52px;
     margin-top: 0;
     margin-bottom: 33px;
+    @include tablet {
+        font-size: 3.2rem;
+        margin-left: 280px;
+    }
+    @include dekstop {
+        font-size: 3.2rem;
+        margin-left: 480px;
+    }
 }
 
 .menu_header_heart {

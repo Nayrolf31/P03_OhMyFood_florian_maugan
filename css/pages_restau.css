@@ -120,6 +120,8 @@
   width: 92%;
   height: 180px;
   background-color: white;
+  -webkit-box-shadow: 1px 10px 30px #c4c4c4;
+          box-shadow: 1px 10px 30px #c4c4c4;
   border-radius: 40px;
   margin-bottom: 35px;
   margin-left: auto;
@@ -266,27 +268,6 @@
   margin-left: 80px;
 }
 
-/*TEST
-.assiette_case {
-    display: flex;
-    flex-direction: row;
-}
-
-.assiette_prix {
-    display: flex;
-    font-weight: bold;
-    margin-right: 15px;
-    align-items: flex-end;
-}
-
-h4{
-    margin: 0;
-}
-/*TEST*/
-/*.assiette_prix {
-    font-weight: bold;
-    margin-right: 15px;
-}*/
 .assiette_titre {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -342,5 +323,6 @@ h4{
 
 .check i {
   color: white;
+  font-size: 3.8rem;
 }
 /*# sourceMappingURL=pages_restau.css.map */

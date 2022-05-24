@@ -371,6 +371,12 @@
   margin: 22px 0 12px 0;
 }
 
+@media screen and (min-width: 998px) {
+  .logo_header img {
+    width: 300px;
+  }
+}
+
 .menu_header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,6 +398,20 @@
   padding-top: 52px;
   margin-top: 0;
   margin-bottom: 33px;
+}
+
+@media screen and (min-width: 998px) {
+  .menu_header_title {
+    font-size: 3.2rem;
+    margin-left: 280px;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .menu_header_title {
+    font-size: 3.2rem;
+    margin-left: 480px;
+  }
 }
 
 .menu_header_heart {
@@ -866,6 +886,8 @@ footer i {
   width: 92%;
   height: 180px;
   background-color: white;
+  -webkit-box-shadow: 1px 10px 30px #c4c4c4;
+          box-shadow: 1px 10px 30px #c4c4c4;
   border-radius: 40px;
   margin-bottom: 35px;
   margin-left: auto;
@@ -1012,27 +1034,6 @@ footer i {
   margin-left: 80px;
 }
 
-/*TEST
-.assiette_case {
-    display: flex;
-    flex-direction: row;
-}
-
-.assiette_prix {
-    display: flex;
-    font-weight: bold;
-    margin-right: 15px;
-    align-items: flex-end;
-}
-
-h4{
-    margin: 0;
-}
-/*TEST*/
-/*.assiette_prix {
-    font-weight: bold;
-    margin-right: 15px;
-}*/
 .assiette_titre {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1088,6 +1089,7 @@ h4{
 
 .check i {
   color: white;
+  font-size: 3.8rem;
 }
 
 body {
@@ -1177,6 +1179,9 @@ body {
 
 .block_restaurants_titre {
   padding-left: 27px;
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 #block_découverte {
@@ -1373,15 +1378,15 @@ body {
   display: flex;
   color: white;
   background: linear-gradient(120deg, #FF79DA, #9356DC);
-  border-radius: 50px;
+  border-radius: 150px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 400px;
-  height: 120px;
+  width: 450px;
+  height: 110px;
   font-size: 40px;
   /*margin-left: 250px;*/
   cursor: pointer;

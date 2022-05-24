@@ -86,6 +86,9 @@ body {
 
 .block_restaurants_titre {
   padding-left: 27px;
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 #block_découverte {

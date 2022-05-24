@@ -26,6 +26,12 @@
   margin: 22px 0 12px 0;
 }
 
+@media screen and (min-width: 998px) {
+  .logo_header img {
+    width: 300px;
+  }
+}
+
 .menu_header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,6 +53,20 @@
   padding-top: 52px;
   margin-top: 0;
   margin-bottom: 33px;
+}
+
+@media screen and (min-width: 998px) {
+  .menu_header_title {
+    font-size: 3.2rem;
+    margin-left: 280px;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .menu_header_title {
+    font-size: 3.2rem;
+    margin-left: 480px;
+  }
 }
 
 .menu_header_heart {

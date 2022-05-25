@@ -201,23 +201,23 @@
   0% {
     stroke-dashoffset: 0;
     fill: #9356DC;
-    fill-opacity: 0%;
+    fill-opacity: .0;
   }
   40% {
     stroke-dashoffset: 1540;
     fill: #FF79DA;
-    fill-opacity: 25%;
+    fill-opacity: .25;
   }
   80% {
     stroke-dashoffset: 3080;
     fill: #9356DC;
-    fill-opacity: 75%;
+    fill-opacity: .75;
   }
   100% {
-    stroke-dashoffset: 0;
-    fill: #FF79DA;
-    fill-opacity: 100%;
-    stroke: #FF79DA;
+    /*stroke-dashoffset: 0;
+        fill: $color_secondaire ;
+        fill-opacity: 100%;
+        stroke: $color_secondaire;*/
   }
 }
 
@@ -225,23 +225,23 @@
   0% {
     stroke-dashoffset: 0;
     fill: #9356DC;
-    fill-opacity: 0%;
+    fill-opacity: .0;
   }
   40% {
     stroke-dashoffset: 1540;
     fill: #FF79DA;
-    fill-opacity: 25%;
+    fill-opacity: .25;
   }
   80% {
     stroke-dashoffset: 3080;
     fill: #9356DC;
-    fill-opacity: 75%;
+    fill-opacity: .75;
   }
   100% {
-    stroke-dashoffset: 0;
-    fill: #FF79DA;
-    fill-opacity: 100%;
-    stroke: #FF79DA;
+    /*stroke-dashoffset: 0;
+        fill: $color_secondaire ;
+        fill-opacity: 100%;
+        stroke: $color_secondaire;*/
   }
 }
 

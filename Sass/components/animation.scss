@@ -84,7 +84,8 @@
     }
 
     .icon path {
-        fill: transparent;
+        /*fill: transparent;*/
+        fill-opacity: 0;
         stroke-width: 30;
         stroke: #000;
     }
@@ -95,6 +96,7 @@
     }
 
     .icon.heart:hover path {
+        fill-opacity: 100%;
         animation: animation-heart 2s linear forwards;
 
     }
@@ -113,7 +115,8 @@
     align-items: center;
 
     .icon path {
-        fill: transparent;
+        /*fill: transparent;*/
+        fill-opacity: 0;
         stroke-width: 40;
         stroke: #000;
     }
@@ -124,34 +127,34 @@
     }
 
     .icon.heart:hover path {
-        animation: animation-heart 2s linear forwards;
-
+        fill-opacity: 100%;
+        animation: animation-heart 2s linear forwards ;
     }
 }
 
 @keyframes animation-heart {
     0% {
         stroke-dashoffset: 0;
-        fill: $color_primaire;
+        /*fill: $color_primaire;*/
         fill-opacity: .0;
     }
 
     40% {
         stroke-dashoffset: 1540;
-        fill: $color_secondaire ;
-        fill-opacity: .25;
+        /*fill: $color_secondaire ;
+        fill-opacity: .25;*/
     }
 
     80% {
         stroke-dashoffset: 3080;
-        fill: $color_primaire ;
+        /*fill: $color_primaire ;*/
         fill-opacity: .75;
     }
 
     100% {
-        stroke-dashoffset: 0;
-        fill: $color_secondaire ;
+        stroke-dashoffset: 1540;
         stroke: $color_secondaire;
+        /*fill: $color_secondaire ;*/
     }
 }
 

@@ -107,7 +107,6 @@
 }
 
 .coeur_container_menu .icon path {
-  /*fill: transparent;*/
   fill-opacity: 0;
   stroke-width: 30;
   stroke: #000;
@@ -145,7 +144,6 @@
 }
 
 .coeur_container .icon path {
-  /*fill: transparent;*/
   fill-opacity: 0;
   stroke-width: 40;
   stroke: #000;
@@ -165,46 +163,36 @@
 @-webkit-keyframes animation-heart {
   0% {
     stroke-dashoffset: 0;
-    /*fill: $color_primaire;*/
     fill-opacity: .0;
   }
   40% {
     stroke-dashoffset: 1540;
-    /*fill: $color_secondaire ;
-        fill-opacity: .25;*/
   }
   80% {
     stroke-dashoffset: 3080;
-    /*fill: $color_primaire ;*/
     fill-opacity: .75;
   }
   100% {
     stroke-dashoffset: 1540;
     stroke: #FF79DA;
-    /*fill: $color_secondaire ;*/
   }
 }
 
 @keyframes animation-heart {
   0% {
     stroke-dashoffset: 0;
-    /*fill: $color_primaire;*/
     fill-opacity: .0;
   }
   40% {
     stroke-dashoffset: 1540;
-    /*fill: $color_secondaire ;
-        fill-opacity: .25;*/
   }
   80% {
     stroke-dashoffset: 3080;
-    /*fill: $color_primaire ;*/
     fill-opacity: .75;
   }
   100% {
     stroke-dashoffset: 1540;
     stroke: #FF79DA;
-    /*fill: $color_secondaire ;*/
   }
 }
 
